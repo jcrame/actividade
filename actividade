@@ -1,0 +1,10 @@
+OUTPUT "menu de sabores 1 = hamburguer 2 = pizza 3 = macarrom"
+DECLARE opcao : INT
+OUTPUT "escolha opcao"
+INPUT opcao
+if (opcao = 1)
+OUTPUT "hamburguer" ENDIF
+if (opcao = 2)
+OUTPUT "pizza" ENDIF
+if (opcao = 3)
+OUTPUT "macarron" ENDIF
