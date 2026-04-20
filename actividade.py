@@ -1,10 +1,12 @@
+exercicio 1
+
 nome = input("coloque teu nome: ")
 idade = input("adicione tua idade: ")
 cidade = input("de qual cidade é vc: ")
 
 print(f"mi nombre es {nome} y tengo {idade} años y soy de {cidade}")
 
-
+exercicio 2
 
 
 print ("pode colocar suas notas")
@@ -25,7 +27,7 @@ divisao = nota1 / nota2
 print (f'nota1 / nota2 = {divisao}')
 
 
-
+exercicio 3
 
 numero = int(input("coloque numero: "))
 
@@ -33,7 +35,7 @@ for i in range(1,11):
     result = i*numero
     print(f'{i} x {numero} = {result}' ) 
 
-
+exercicio 4
 
 numero_secreto = 99
 
@@ -50,4 +52,15 @@ while palpite != numero_secreto:
         print("Parabéns nossa! Você acertou o número secreto!")
         break
 
+
+exercicio 5
+
+for i in range(5):
+    item = input('Digite um item: ');
     
+    compras.append(item)
+   
+    for indice, i in enumerate(compras, start=1):
+        print(f'Você precisa comprar{indice}, {i}');
+
+
