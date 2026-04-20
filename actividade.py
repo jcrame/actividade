@@ -35,4 +35,19 @@ for i in range(1,11):
 
 
 
+numero_secreto = 99
+
+palpite = None
+
+while palpite != numero_secreto:
+    palpite = int(input("Adivinhe o número secreto: "))
+
+    if palpite < numero_secreto:
+        print("O palpite é menor do número secreto.")
+    elif palpite > numero_secreto:
+        print("O palpite é maior do número secreto.")
+    else:
+        print("Parabéns nossa! Você acertou o número secreto!")
+        break
+
     
